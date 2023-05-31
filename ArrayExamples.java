@@ -3,7 +3,7 @@
 public class ArrayExamples {
 
   // Changes the input array to be in reversed order
-  static void reverseInPlace(int[] arr) {
+  static void reverseInPlace(int[] arr) {  
     int[] sub = new int[arr.length];
     for (int i = 0; i < arr.length; i++) {
       sub[i] = arr[i];
